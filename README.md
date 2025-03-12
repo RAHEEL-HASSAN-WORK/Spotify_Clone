@@ -1,2 +1,22 @@
-# Spotify_Clone
-Spotify Clone 🎵 A simple Spotify-inspired UI built with HTML &amp; CSS. It features a clean design with a navigation bar, sidebar, song list, and album display. The layout is fully responsive, ensuring a smooth experience on both desktop and mobile. This project highlights CSS styling, Flexbox, and Grid layouts for an elegant look. 🚀
+# 🎵 Spotify Clone  
+
+A simple **Spotify-inspired UI** built using **HTML & CSS**. This project focuses on creating a visually appealing and responsive music player interface.  
+
+## 🚀 Features  
+✅ Clean and modern UI design  
+✅ Responsive layout for desktop & mobile  
+✅ Navigation bar and sidebar  
+✅ Song list and album display  
+✅ Smooth styling using Flexbox & Grid  
+
+## 📂 Technologies Used  
+- **HTML5** for structuring the content  
+- **CSS3** for styling and responsiveness  
+
+## 📸 Screenshots  
+(Include images of your project here)  
+
+## 📌 How to Use  
+1. Download or clone this repository:  
+   ```sh
+   git clone <https://github.com/RAHEEL-HASSAN-WORK/Spotify_Clone.git>
