@@ -114,6 +114,7 @@ body{
     flex: 1;
     overflow: auto;
     border-radius: 1rem;
+    padding: 0 1.5rem 0 1.5rem;
 }
 .sticky-nav{
     background-color: #121212;
@@ -123,6 +124,7 @@ body{
     position: sticky;
     top: 0;
     padding: 1rem 0 1rem 0;
+    z-index: 1;
 
 }
 .sticky-nav-icon{
@@ -144,9 +146,9 @@ body{
 @media(max-width: 1000px){
     .hide{
         display: none;
-    }
-}
-img{
+    } 
+ } 
+img-backward{
     height: 25px;
     width: 25px;
     background-color: #000;
@@ -160,7 +162,30 @@ img{
     }
 }
 
+.card{
+    background-color: #232323;
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.card-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.card-title{
+    font-weight: 700;
+}
+.card-info{
+    font-size: 0.85rem;
+    opacity: 0.7;
+}
 /* Giving styling to musicplayer */
 .musicplayer{
     background-color: black;
