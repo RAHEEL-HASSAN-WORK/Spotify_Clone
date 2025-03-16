@@ -220,9 +220,6 @@ img-backward{
     align-items: center;
 }
 
-.album{
-    width: 25%;
-}
 .player{
     width: 50%;
     
@@ -263,4 +260,75 @@ img-backward{
         border-radius: 50%;
         margin-top: -6px;
     }
+}
+
+.album{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 280px;
+}
+
+.album-art {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.music-info {
+    flex-grow: 1;
+}
+
+.track-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.artist-name {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+
+.media-controls {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.media-controls i {
+    color: #bbb;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.media-controls i:hover {
+    transform: scale(1.3); 
+    color: white; 
+}
+
+.volume-slider {
+    width: 100px;
+    height: 5px;
+    background: white;
+    border-radius: 5px;
+    appearance: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+.volume-slider:hover {
+    transform: scaleX(1.1); 
 }
