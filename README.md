@@ -19,3 +19,5 @@ A simple **Spotify-inspired UI** built using **HTML & CSS**. This project focuse
 ## 📌 How to Use  
 1. Download or clone this repository:  
    git clone <https://github.com/RAHEEL-HASSAN-WORK/Spotify_Clone.git>
+
+Thanks...
